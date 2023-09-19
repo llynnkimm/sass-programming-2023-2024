@@ -49,3 +49,27 @@ Eg.
 ![portuguese water dog](https://www.dogbreedslist.info/uploads/dog-pictures/portuguese-water-dog-2.jpg)
 
 # Method Two Doesn't Work
+
+# Block Quotes  
+Block quotes allow us to emphasize a bigger chunk of text. We use carets(>) to create block quotes> This is an example of a blockquote  
+> This is line two of the blockquote  
+>  
+> This is the fourth line; the third is blank# Lists  
+We can create both unordered and ordered lists# Unordered Lists  
+To create each point, we use ( *) with a space behind ite.g  
+* Dairy  
+* eggs  
+* Milk  
+* Cheese# Ordered ListsIf there is a specific order to the elements in our list,  
+we create ordered lists  
+we use numbers followed by periods to create the ordered listse.g.  
+1. Put butter into mixing bowl  
+2. Add sugar to butter (*hold shift to get the second line*)  
+   Add both brown and regular sugar  
+3. Use the mixer to cream the butter and sugar together# Tables  
+We can organize information in tables using Markdown  
+We use dashes (-) and pipes (|)Tables in Markdown require headingse.g.| Name        | Age        | Sign        | Superpower      |  
+| ---         | ---        | ---         | ---             |  
+| Bruce Wayne | 35         | Aquarius    | Intelligence/ $ |  
+| Mr. Ubial   | Unaging    | All of them | Dad strength    |  
+| Yourself    | Your age   | Your Sign   | Super strength  |
