@@ -56,3 +56,23 @@ Check if it works *syntactically*. In other words, we check to see if it BREAKS.
 Check if it works *semantically*. In other words, we ask does our algorithm
 ## 4. Share our Work  
 Once it solves the problem, ship your code to whoever will use it.
+
+# Modules
+
+# Bo
+
+# String Methods 
+
+[[Methods]] are functions that we can use on [[objects]] 
+
+String methods allow us to modify strings.
+
+Say for example, we want to make all the characters of a string lowercase.
+
+```python
+mr_ubial_yelling = "YOU SHOULD PUSH YOUR CHAIRS IN"
+
+print(mr_ubial_yelling.lower())
+```
+
+The `.lower()` method takes a string and converts all uppercase characters to lowercase
