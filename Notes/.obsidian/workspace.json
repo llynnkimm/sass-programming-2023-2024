@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conditionals.md"
+                "file": "Strings.md"
               }
             }
           },
@@ -229,16 +229,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e550db83e44d9e1",
+  "active": "9013ceb0a500b3fc",
   "lastOpenFiles": [
-    "Errors.md",
+    "Pasted image 20230927133137.png",
+    "Strings.md",
     "Natural Language Processing.md",
-    "Markdown (Re) Introduction.md",
+    "Design.md",
+    "Boolean.md",
+    "Headers.md",
+    "Errors.md",
     "Modules.md",
     "Conditionals.md",
+    "Markdown (Re) Introduction.md",
     "Lists.md",
-    "Headers.md",
-    "Pasted image 20230927133137.png",
     "chatbot.py",
     "chatbot.py "
   ]
