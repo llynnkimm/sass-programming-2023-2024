@@ -9,7 +9,7 @@ def delay_print(s):
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(0.15)
+        time.sleep(0.25)
 
 # Create a bot that with a series of yes or no questions that will decide weather your on the light side or dark side
 
