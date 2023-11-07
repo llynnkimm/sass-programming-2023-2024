@@ -85,14 +85,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings.md",
+                "file": "Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a02a199917b6887a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "817c0d043304a793",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -142,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d9c0d62b21cb2b9c",
@@ -158,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
+                "file": "Recommendation Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
+                "file": "Recommendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings.md"
+                "file": "Recommendation Systems.md"
               }
             }
           },
@@ -217,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,18 +253,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9013ceb0a500b3fc",
+  "active": "817c0d043304a793",
   "lastOpenFiles": [
-    "Pasted image 20230927133137.png",
-    "Strings.md",
+    "Numbers.md",
     "Natural Language Processing.md",
+    "Recommendation Systems.md",
+    "Type.md",
+    "Type-2.md",
+    "Types.md",
+    "Strings.md",
+    "Markdown (Re) Introduction.md",
+    "Modules.md",
+    "Pasted image 20230927133137.png",
     "Design.md",
     "Boolean.md",
     "Headers.md",
     "Errors.md",
-    "Modules.md",
     "Conditionals.md",
-    "Markdown (Re) Introduction.md",
     "Lists.md",
     "chatbot.py",
     "chatbot.py "
