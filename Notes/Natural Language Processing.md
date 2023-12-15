@@ -2,77 +2,93 @@
 tags:
   - notes
   - natural-language-processing
-  - 2023-2024
+  - y2023
   - programming-level-1-2
 ---
 # Natural Language Processing
 ## Output
-We can use a function to display text and symbols to the screen.
-We use the `print` function to display output
+We can use a function to display text and symbols to the screen
+We use the `print()` function to display output
 
 ```python
-print("Your text goes in here")
+print("Your text goes in here.")
 ```
 
-[[Headers]]
+> Task
+> 1. open Visual Studio Code
+> 2. make sure that it's open to your repository
+> 3. create a new file called `input_and_output.py`
+
+## [[Headers]]
 
 ## Comments
-Comments are pieces of text that are not interpreted by Python.
-This means that the text is ignored.
+Comments are pieces of text that are *not* interpreted by Python.
+This means that the text is **ignored**.  
 We use the # symbol to make comments.
 
 ```python
 # This is a comment
 ```
 
-# [[Strings]]
+> Task
+> 1.  In `input_and_output.py1`
+> 	1. Put the header
+> 	2. Write in some comments
 
-|   |
-|---|
-|# Format Strings|
-|If we want to evaluate inside of a string, we use *f-strings*.|
-|To create an f-string, we put an `f` before the open quote|
-||
-|```python|
-|fave_food = input("What's your favourite food? ")|
-||
-|print(f"Ooooooo, {fave_food} sounds good!")|
-|```|
-
-
-*The Design Process* is the steps that we take when we create a solution to a problemThere are four steps in our design process
-## 1. Design our Algorithm in English (or any human language)  
-An *algorithm* is a sequence of steps to solve a problem  
-In this class, *before* we start ANY programming, we write our steps in English.
-## 2. Translate our Algorithm from English to Python
-*The Design Process* is the steps that we take when we create a solution to a problemThere are four steps in our design process
-## 1. Design our Algorithm in English (or any human language)  
-An *algorithm* is a sequence of steps to solve a problem  
-In this class, *before* we start ANY programming, we write our steps in English.
-## 2. Translate our Algorithm from English to Python  
-We'll translate our algorithm into "proper" Python.
-## 3. Test our Python Algorithm  
-Check if it works *syntactically*. In other words, we check to see if it BREAKS.  
-Check if it works *semantically*. In other words, we ask does our algorithm
-## 4. Share our Work  
-Once it solves the problem, ship your code to whoever will use it.
-
-# Modules
-
-# Bo
-
-# String Methods 
-
-[[Methods]] are functions that we can use on [[objects]] 
-
-String methods allow us to modify strings.
-
-Say for example, we want to make all the characters of a string lowercase.
+## Input
+We grab information from the user using `input()`.  
+When we run the function, it does two things:
+1. It **waits** for the user to write something or nothing
+2. The user presses **Enter/Return** to indicate that they're finished
 
 ```python
-mr_ubial_yelling = "YOU SHOULD PUSH YOUR CHAIRS IN"
+input()
 
-print(mr_ubial_yelling.lower())
+input(<prompt>)      # prints out the prompt then waits
 ```
 
-The `.lower()` method takes a string and converts all uppercase characters to lowercase
+## Variables
+Variables allow us to **store** information for the time that our app
+is running.
+
+```python
+favourite_food = input("What is your favourite food? ")
+```
+
+`favourite_food` -> name of the variable
+`=` -> assignment operator
+`input...` -> value
+### Naming
+What you can do:
+1. name them with letters, numbers, underscores
+2. names **should** start with a lowercase letter
+What you can't do:
+1. you **can't** name them with spaces or symbols
+2. you **can't** name them with certain names that are reserved
+	1. e.g. `if`, `while`, `for`, `and`, `or`, ...
+
+A good name is something like this:
+```python
+favourite_food 
+fave_food
+date_of_birth
+student_number
+screen_size
+```
+
+Bad names are like this:
+```python
+Favourite_food
+a
+num
+aa
+aaa
+aaaa
+```
+# [[Strings]]
+
+# [[Design]]
+
+# [[List|Lists]]
+
+# [[Modules]]
