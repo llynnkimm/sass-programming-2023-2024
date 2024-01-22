@@ -16,6 +16,7 @@ coco_likes = 0      # Initialize the variable to 0
 suntea_likes = 0
 chatime_likes = 0
 bubqueen_likes = 0
+other_likes = 0
 
 for _ in range(NUM_RESPONDENTS):
     # Ask the user what their favourite place is
@@ -31,17 +32,13 @@ for _ in range(NUM_RESPONDENTS):
         chatime_likes += 1
     elif fave_place == "bubble queen":
         bubqueen_likes += 1
+    else:
+        other_likes += 1
 
-#  Print out a summary of all the places
-#GIve the raw score and the percentage
-print(f'CoCo likes: {coco_likes}')
-print(f'suntea: {suntea_likes}')
-print(f'chatime likes: {chatime_likes}')
-print(f'bubqueen likes: {bubqueen_likes}')
-# Tally or counting algo
-# options: CoCo, Suntea, Chatime, Bubble Queen
-# if they choose any of these options, increase the counter
-print(f"CoCo percentage: {coco_likes / NUM_RESPONDENTS * 100}%")
-print(f"Bubble queen likes: {bubqueen_likes / NUM_RESPONDENTS * 100}%")
-print(f"Suntea likes: {suntea_likes / NUM_RESPONDENTS * 100}%")
-print(f"Chatime likes: {chatime_likes / NUM_RESPONDENTS * 100}%")
+# Print out a summary
+print(f"CoCo Likes: {coco_likes} | {round(coco_likes / NUM_RESPONDENTS * 100, 2)}%")
+print(f"Suntea Likes: {suntea_likes} | {round(suntea_likes / NUM_RESPONDENTS * 100, 2)}%")
+print(f"Chatime Likes: {chatime_likes} | {round(chatime_likes / NUM_RESPONDENTS * 100, 2)}%")
+print(f"Bubble Queen Likes: {bubqueen_likes} | {round(bubqueen_likes / NUM_RESPONDENTS * 100, 2)}%")
+print(f"Other Likes: {other_likes} | {round(other_likes / NUM_RESPONDENTS * 100, 2)}%")
+
