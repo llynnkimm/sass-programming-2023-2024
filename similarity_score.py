@@ -1,5 +1,5 @@
 # Comparing Similarity Scores
-# Author: Ubial
+# Author: Lynn Kim
 # 8 November 2023
 
 # Calculate similarity scores between two people

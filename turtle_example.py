@@ -1,5 +1,5 @@
 # Turtle Example
-# Author: Ubial
+# Author: Lynn Kim
 # 21 November 2023
 
 import turtle

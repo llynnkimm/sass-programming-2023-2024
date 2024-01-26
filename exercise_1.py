@@ -1,5 +1,5 @@
 # Exercise 1
-# Author: Ubial
+# Author: Lynn Kim
 # 6 October 2023
 
 # Find the problem

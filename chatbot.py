@@ -1,5 +1,5 @@
 # Chatbot
-# Author: Lynn 
+# Author: Lynn Kim
 # Date: 20 September 2023
 
 import random

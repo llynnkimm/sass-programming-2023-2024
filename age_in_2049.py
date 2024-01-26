@@ -1,5 +1,5 @@
 # Age In 2049
-# Author: Kim Lynn
+# Author: Lynn Kim
 # 7 November 2023
 
 user_age = input("How old are you?")

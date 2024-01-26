@@ -1,5 +1,5 @@
 # Olympic Judging
-# Author: Kim Lynn
+# Author: Lynn Kim
 # 7 November 2023
 
 questions = [

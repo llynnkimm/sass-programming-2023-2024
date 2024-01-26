@@ -1,5 +1,5 @@
 # Number Practice
-# Author: Ubial
+# Author: Lynn Kim
 # Date: 26 October 2023
 
 # Operators that work on Numbers
